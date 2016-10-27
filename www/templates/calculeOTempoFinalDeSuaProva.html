@@ -1,0 +1,52 @@
+<ion-view title="Calcule o tempo final de sua prova" id="page3" style="background-color:#AAAAD1;">
+    <ion-content padding="true" class="has-header" >
+        <form id="calcule" class="list">
+            <label class="item item-input"> </label>
+            <span class="input-label">Escolha sua prova:
+            
+</span>
+            <ion-list >
+                <ion-radio ng-model="escolha" ng-click="preencheDistancias(escolha)" ng-value="1">Ironman  70.3</ion-radio>
+                <ion-radio ng-model="escolha" ng-click="preencheDistancias(escolha)" ng-value="2">Ironman  140.6</ion-radio>
+                <ion-radio ng-model="escolha" ng-click="preencheDistancias(escolha)" ng-value="3">Olímpico</ion-radio>
+                <ion-radio ng-model="escolha" ng-click="preencheDistancias(escolha)" ng-value="4">Sprint</ion-radio>
+            </ion-list>
+            <br>
+            
+            <label class="item item-input" id="calculeOTempoFinalDeSuaProva-input2">
+                <span class="input-label">Natação</span>
+                <input type="time" id="natacao" ng-model="natacao" placeholder="HH:mm:ss" min="08:00:00" max="71:40:00" required>
+                <span class="input-label" >Distância: {{escolhido.swim}} </span>
+            </label>
+            <label class="item item-input" id="calculeOTempoFinalDeSuaProva-input3">
+                <span class="input-label">Transição - T1</span>
+            <input type="time" ng-model="prova.t1" >
+            </label>
+            <label class="item item-input" id="calculeOTempoFinalDeSuaProva-input4">
+                <span class="input-label">Bike </span>
+                <input type="time"  ng-model="prova.bike">
+                <span class="input-label" >Distância: {{escolhido.bike}} </span>
+            </label>
+            <label class="item item-input" id="calculeOTempoFinalDeSuaProva-input5">
+                <span class="input-label">Transição - T2</span>
+                <input type="time" value="00:02:00" ng-model="prova.t2">
+            </label>
+            <label class="item item-input" id="calculeOTempoFinalDeSuaProva-input6">
+                <span class="input-label">Corrida</span>
+                <input type="time"  ng-model="prova.corrida">
+                <span class="input-label" >Distância: {{escolhido.run}} </span>
+                {{prova.corrida}}
+            </label>
+            <div class="spacer" style="width: 100px; height: 5px;"></div>
+            <button ng-click="calcular(prova)" class="button button-positive button">Calcular</button>
+            <input type="button" ng-click="Limpar()" value="Limpar" class="button button-positive button" />
+        </form>
+        <div id="calculeOTempoFinalDeSuaProva-markdown2" style="color:#000000;text-align:center;">
+            <p>Resultado:</p>
+        </div>
+        <h1 id="calculeOTempoFinalDeSuaProva-heading3" style="color:#000000;text-align:center;">{{resultado}}</h1>
+    </ion-content>
+    <div class="bar bar-footer bar-balanced"> 
+            <div class="title"><a ui-sref="sobre"> Roberto Diener </a></div>
+        </div>
+</ion-view>
