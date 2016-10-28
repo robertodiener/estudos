@@ -1,0 +1,411 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/common
+20 silly mapToRegistry name @angular/common
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+26 silly fetchNamedPackageData @angular/compiler
+27 silly mapToRegistry name @angular/compiler
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+33 silly fetchNamedPackageData @angular/core
+34 silly mapToRegistry name @angular/core
+35 silly mapToRegistry scope (from package name) @angular
+36 verbose mapToRegistry no registry URL found in name for scope @angular
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+40 silly fetchNamedPackageData @angular/forms
+41 silly mapToRegistry name @angular/forms
+42 silly mapToRegistry scope (from package name) @angular
+43 verbose mapToRegistry no registry URL found in name for scope @angular
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+47 silly fetchNamedPackageData @angular/http
+48 silly mapToRegistry name @angular/http
+49 silly mapToRegistry scope (from package name) @angular
+50 verbose mapToRegistry no registry URL found in name for scope @angular
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+54 silly fetchNamedPackageData @angular/platform-browser
+55 silly mapToRegistry name @angular/platform-browser
+56 silly mapToRegistry scope (from package name) @angular
+57 verbose mapToRegistry no registry URL found in name for scope @angular
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+61 silly fetchNamedPackageData @angular/platform-browser-dynamic
+62 silly mapToRegistry name @angular/platform-browser-dynamic
+63 silly mapToRegistry scope (from package name) @angular
+64 verbose mapToRegistry no registry URL found in name for scope @angular
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+68 silly fetchNamedPackageData @angular/router
+69 silly mapToRegistry name @angular/router
+70 silly mapToRegistry scope (from package name) @angular
+71 verbose mapToRegistry no registry URL found in name for scope @angular
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+75 silly fetchNamedPackageData @angular/upgrade
+76 silly mapToRegistry name @angular/upgrade
+77 silly mapToRegistry scope (from package name) @angular
+78 verbose mapToRegistry no registry URL found in name for scope @angular
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fupgrade
+82 silly fetchNamedPackageData angular-in-memory-web-api
+83 silly mapToRegistry name angular-in-memory-web-api
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/angular-in-memory-web-api
+87 silly fetchNamedPackageData bootstrap
+88 silly mapToRegistry name bootstrap
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+92 silly fetchNamedPackageData core-js
+93 silly mapToRegistry name core-js
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/core-js
+97 silly fetchNamedPackageData reflect-metadata
+98 silly mapToRegistry name reflect-metadata
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+102 silly fetchNamedPackageData rxjs
+103 silly mapToRegistry name rxjs
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+107 silly fetchNamedPackageData systemjs
+108 silly mapToRegistry name systemjs
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+112 silly fetchNamedPackageData zone.js
+113 silly mapToRegistry name zone.js
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+117 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 16:30:12
+120 verbose request id e21c651f2896bf78
+121 http request GET https://registry.npmjs.org/@angular%2fcommon
+122 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 16:30:13
+125 http request GET https://registry.npmjs.org/@angular%2fcompiler
+126 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 16:30:13
+129 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+130 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 16:30:13
+133 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+134 verbose request uri https://registry.npmjs.org/@angular%2frouter
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 16:30:13
+137 http request GET https://registry.npmjs.org/@angular%2frouter
+138 verbose request uri https://registry.npmjs.org/@angular%2fupgrade
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 16:30:13
+141 http request GET https://registry.npmjs.org/@angular%2fupgrade
+142 verbose request uri https://registry.npmjs.org/angular-in-memory-web-api
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 16:30:13
+145 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+146 verbose request uri https://registry.npmjs.org/bootstrap
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 16:30:13
+149 http request GET https://registry.npmjs.org/bootstrap
+150 verbose request uri https://registry.npmjs.org/core-js
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 16:30:13
+153 http request GET https://registry.npmjs.org/core-js
+154 verbose request uri https://registry.npmjs.org/reflect-metadata
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 16:30:13
+157 http request GET https://registry.npmjs.org/reflect-metadata
+158 verbose request uri https://registry.npmjs.org/rxjs
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 16:30:13
+161 http request GET https://registry.npmjs.org/rxjs
+162 verbose request uri https://registry.npmjs.org/systemjs
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 16:30:13
+165 http request GET https://registry.npmjs.org/systemjs
+166 verbose request uri https://registry.npmjs.org/zone.js
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 16:30:13
+169 http request GET https://registry.npmjs.org/zone.js
+170 verbose request uri https://registry.npmjs.org/@angular%2fcore
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 16:30:13
+173 http request GET https://registry.npmjs.org/@angular%2fcore
+174 verbose request uri https://registry.npmjs.org/@angular%2fforms
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 16:30:13
+177 http request GET https://registry.npmjs.org/@angular%2fforms
+178 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 16:30:13
+181 http request GET https://registry.npmjs.org/@angular%2fhttp
+182 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+183 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+184 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+185 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+186 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+187 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+188 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+189 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+190 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+191 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+192 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+193 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+194 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+195 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+196 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+197 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+198 info attempt registry request try #2 at 16:30:23
+199 http request GET https://registry.npmjs.org/bootstrap
+200 info attempt registry request try #2 at 16:30:23
+201 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+202 info attempt registry request try #2 at 16:30:23
+203 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+204 info attempt registry request try #2 at 16:30:23
+205 http request GET https://registry.npmjs.org/reflect-metadata
+206 info attempt registry request try #2 at 16:30:23
+207 http request GET https://registry.npmjs.org/@angular%2fupgrade
+208 info attempt registry request try #2 at 16:30:23
+209 http request GET https://registry.npmjs.org/@angular%2fcompiler
+210 info attempt registry request try #2 at 16:30:23
+211 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+212 info attempt registry request try #2 at 16:30:23
+213 http request GET https://registry.npmjs.org/@angular%2fcore
+214 info attempt registry request try #2 at 16:30:23
+215 http request GET https://registry.npmjs.org/@angular%2fhttp
+216 info attempt registry request try #2 at 16:30:23
+217 http request GET https://registry.npmjs.org/@angular%2fforms
+218 info attempt registry request try #2 at 16:30:23
+219 http request GET https://registry.npmjs.org/zone.js
+220 info attempt registry request try #2 at 16:30:23
+221 http request GET https://registry.npmjs.org/systemjs
+222 info attempt registry request try #2 at 16:30:23
+223 http request GET https://registry.npmjs.org/rxjs
+224 info attempt registry request try #2 at 16:30:23
+225 http request GET https://registry.npmjs.org/core-js
+226 info attempt registry request try #2 at 16:30:23
+227 http request GET https://registry.npmjs.org/@angular%2frouter
+228 info attempt registry request try #2 at 16:30:23
+229 http request GET https://registry.npmjs.org/@angular%2fcommon
+230 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+231 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+232 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+233 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+234 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+235 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+236 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+237 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+238 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+239 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+240 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+241 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+242 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+243 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+244 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+245 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+246 info attempt registry request try #3 at 16:31:23
+247 http request GET https://registry.npmjs.org/bootstrap
+248 info attempt registry request try #3 at 16:31:23
+249 http request GET https://registry.npmjs.org/angular-in-memory-web-api
+250 info attempt registry request try #3 at 16:31:23
+251 http request GET https://registry.npmjs.org/@angular%2fupgrade
+252 info attempt registry request try #3 at 16:31:23
+253 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+254 info attempt registry request try #3 at 16:31:23
+255 http request GET https://registry.npmjs.org/@angular%2fcore
+256 info attempt registry request try #3 at 16:31:23
+257 http request GET https://registry.npmjs.org/reflect-metadata
+258 info attempt registry request try #3 at 16:31:23
+259 http request GET https://registry.npmjs.org/@angular%2fhttp
+260 info attempt registry request try #3 at 16:31:23
+261 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+262 info attempt registry request try #3 at 16:31:23
+263 http request GET https://registry.npmjs.org/@angular%2fcompiler
+264 info attempt registry request try #3 at 16:31:23
+265 http request GET https://registry.npmjs.org/rxjs
+266 info attempt registry request try #3 at 16:31:23
+267 http request GET https://registry.npmjs.org/core-js
+268 info attempt registry request try #3 at 16:31:23
+269 http request GET https://registry.npmjs.org/zone.js
+270 info attempt registry request try #3 at 16:31:23
+271 http request GET https://registry.npmjs.org/@angular%2fforms
+272 info attempt registry request try #3 at 16:31:23
+273 http request GET https://registry.npmjs.org/@angular%2fcommon
+274 info attempt registry request try #3 at 16:31:23
+275 http request GET https://registry.npmjs.org/systemjs
+276 info attempt registry request try #3 at 16:31:23
+277 http request GET https://registry.npmjs.org/@angular%2frouter
+278 silly fetchPackageMetaData Error: unable to get local issuer certificate
+278 silly fetchPackageMetaData     at Error (native)
+278 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+278 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+278 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+278 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+278 silly fetchPackageMetaData  error for bootstrap@^3.3.7 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+279 silly fetchPackageMetaData Error: unable to get local issuer certificate
+279 silly fetchPackageMetaData     at Error (native)
+279 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+279 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+279 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+279 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+279 silly fetchPackageMetaData  error for @angular/upgrade@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+280 silly fetchPackageMetaData Error: unable to get local issuer certificate
+280 silly fetchPackageMetaData     at Error (native)
+280 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+280 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+280 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+280 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+280 silly fetchPackageMetaData  error for angular-in-memory-web-api@~0.1.13 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+281 silly fetchPackageMetaData Error: unable to get local issuer certificate
+281 silly fetchPackageMetaData     at Error (native)
+281 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+281 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+281 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+281 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+281 silly fetchPackageMetaData  error for @angular/platform-browser-dynamic@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+282 silly fetchPackageMetaData Error: unable to get local issuer certificate
+282 silly fetchPackageMetaData     at Error (native)
+282 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+282 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+282 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+282 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+282 silly fetchPackageMetaData  error for @angular/core@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+283 silly fetchPackageMetaData Error: unable to get local issuer certificate
+283 silly fetchPackageMetaData     at Error (native)
+283 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+283 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+283 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+283 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+283 silly fetchPackageMetaData  error for @angular/compiler@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+284 silly fetchPackageMetaData Error: unable to get local issuer certificate
+284 silly fetchPackageMetaData     at Error (native)
+284 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+284 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+284 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+284 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+284 silly fetchPackageMetaData  error for @angular/http@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+285 silly fetchPackageMetaData Error: unable to get local issuer certificate
+285 silly fetchPackageMetaData     at Error (native)
+285 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+285 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+285 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+285 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+285 silly fetchPackageMetaData  error for @angular/platform-browser@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+286 silly fetchPackageMetaData Error: unable to get local issuer certificate
+286 silly fetchPackageMetaData     at Error (native)
+286 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+286 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+286 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+286 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+286 silly fetchPackageMetaData  error for reflect-metadata@^0.1.8 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+287 silly fetchPackageMetaData Error: unable to get local issuer certificate
+287 silly fetchPackageMetaData     at Error (native)
+287 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+287 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+287 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+287 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+287 silly fetchPackageMetaData  error for rxjs@5.0.0-beta.12 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+288 silly fetchPackageMetaData Error: unable to get local issuer certificate
+288 silly fetchPackageMetaData     at Error (native)
+288 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+288 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+288 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+288 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+288 silly fetchPackageMetaData  error for zone.js@^0.6.25 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+289 silly fetchPackageMetaData Error: unable to get local issuer certificate
+289 silly fetchPackageMetaData     at Error (native)
+289 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+289 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+289 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+289 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+289 silly fetchPackageMetaData  error for core-js@^2.4.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+290 silly fetchPackageMetaData Error: unable to get local issuer certificate
+290 silly fetchPackageMetaData     at Error (native)
+290 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+290 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+290 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+290 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+290 silly fetchPackageMetaData  error for @angular/common@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+291 silly fetchPackageMetaData Error: unable to get local issuer certificate
+291 silly fetchPackageMetaData     at Error (native)
+291 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+291 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+291 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+291 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+291 silly fetchPackageMetaData  error for systemjs@0.19.39 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+292 silly fetchPackageMetaData Error: unable to get local issuer certificate
+292 silly fetchPackageMetaData     at Error (native)
+292 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+292 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+292 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+292 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+292 silly fetchPackageMetaData  error for @angular/forms@~2.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+293 silly fetchPackageMetaData Error: unable to get local issuer certificate
+293 silly fetchPackageMetaData     at Error (native)
+293 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+293 silly fetchPackageMetaData     at emitNone (events.js:67:13)
+293 silly fetchPackageMetaData     at TLSSocket.emit (events.js:166:7)
+293 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+293 silly fetchPackageMetaData  error for @angular/router@~3.1.1 { [Error: unable to get local issuer certificate] code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+294 silly rollbackFailedOptional Starting
+295 silly rollbackFailedOptional Finishing
+296 silly runTopLevelLifecycles Starting
+297 silly runTopLevelLifecycles Finishing
+298 silly install printInstalled
+299 verbose stack Error: unable to get local issuer certificate
+299 verbose stack     at Error (native)
+299 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1016:38)
+299 verbose stack     at emitNone (events.js:67:13)
+299 verbose stack     at TLSSocket.emit (events.js:166:7)
+299 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:585:8)
+300 verbose cwd /home/t315913/estudos/calculadoraDoTriatleta/cursoAngular
+301 error Linux 4.4.0-21-generic
+302 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+303 error node v4.2.6
+304 error npm  v3.5.2
+305 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+306 error unable to get local issuer certificate
+307 error If you need help, you may report this error at:
+307 error     <https://github.com/npm/npm/issues>
+308 verbose exit [ 1, true ]
